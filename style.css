@@ -1,0 +1,50 @@
+#header {
+    border-radius: 25px;
+    background: #e1f0e8;
+    padding: 20px;
+    width: 400px;
+    height: 10%;
+    color: #313834;
+    text-align: center;
+}
+
+#headshot {
+    width: 230px;
+    height: 230px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a:hover {
+    color: black;
+}
+
+#headshot-caption {
+    text-align: center;
+}
+
+body {
+    background-image: url("cool-background.png");
+    background-repeat: repeat;
+    font-family: sans-serif;
+    color:darkblue;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+    background-color: #D3D3D3;
+}
+
+#quote {
+    text-align: center;
+    font-style: italic;
+    color:#f2f2f2;
+}
+
+span {
+    color: red;
+}
